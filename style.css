@@ -1,0 +1,75 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    line-height: 2;
+    font-family: sans-serif;
+    background-color: #808080;
+    
+    
+}
+
+.navi{ color: black;
+}
+
+#headies{
+    position: sticky;
+    top: property 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: space-between;
+
+}
+
+.imgctn{
+    /* border: 2px solid; color: black; */
+    width: 500px;
+
+
+}
+
+.imgctn img{
+    width: 100%;
+
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 10px;
+    margin-right: 50px;
+}
+.knowme{
+    width: 600px;
+    background-color: rgb(37, 37, 37);
+}
+
+#know{
+    padding: 50px;
+}
+
+.values{
+    width: 600px;
+   
+    display: flex;
+    justify-content: center;
+    background-color: rgb(63, 63, 63);
+    
+}
+
+#valu{
+    padding: 50px;
+}
+
+ul{
+  list-style-position: inside;
+}
+
